@@ -12,16 +12,10 @@ const solution = (arr) => {
 7
    right = [...arr].slice(arr.length / 2, arr.length)
 8
-    
-9
    console.log('arr: ', arr)
-10
    console.log('left: ', left)
-11
    console.log('right: ', right)    
-12
    
-13
    leftSum = left.reduce(reducer);
 14
    rightSum = right.reduce(reducer);
