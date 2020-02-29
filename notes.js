@@ -1,9 +1,5 @@
-​
-2
 const solution = (arr) => {
-3
    let left, right, leftSum, rightSum;
-4
    const reducer = (accumulator, currentValue) => accumulator + currentValue;
 5
     
@@ -15,7 +11,7 @@ const solution = (arr) => {
    console.log('arr: ', arr)
    console.log('left: ', left)
    console.log('right: ', right)    
-   
+
    leftSum = left.reduce(reducer);
 14
    rightSum = right.reduce(reducer);
