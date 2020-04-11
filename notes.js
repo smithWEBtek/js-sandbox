@@ -17,13 +17,6 @@ const solution = (arr) => {
    rightSum = right.reduce(reducer);
 15
    
-16
-   console.log('leftSum: ', leftSum) 
-17
-   console.log('rightSum: ', rightSum)
-18
-    
-19
    if(arr.length === 0){
 20
        return '';
@@ -43,4 +36,4 @@ const solution = (arr) => {
     }
 28
 };
-1/5 test case
+ 
