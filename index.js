@@ -88,3 +88,17 @@ const solution = (arr) => {
   loadValues(result, left, right, leftLength, rightLength, leftSum, rightSum, arr) 
 };
   
+const uniqueOccurances = (arr) => {
+  let hashed = {};
+    for(let i = 0; i < arr.length; i++){
+      if(!hashed[arr[i].toString()]){
+        hashed[i.toString()] = 1
+        console.log('hashed: ', hashed);
+      } else {
+        debugger;
+        hashed[arr[i]] += 1;
+      }
+    }
+  }
+
+uniqueOccurances([1,3,2,3,4])
